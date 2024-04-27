@@ -11,7 +11,8 @@
 <body>
       
     <form action="/predict" method="post" class="container">
-      <label for="Gender"> Gender:</label>
+      <label for="Gender"> Gender: </label>
+      
       
 
       <select id="Gender" name="Gender">
@@ -28,9 +29,9 @@
         
     </form>
     {% if (pred_res)==0 : %}
-    <h2>  No Purchase  </h2>
+    <h2> Will Not Purchase  </h2>
     {% elif (pred_res)==1 : %}
-    <h2>  Purchase </h2>
+    <h2>  Will Purchase </h2>
     {% endif %}
 </body> 
 </html> 

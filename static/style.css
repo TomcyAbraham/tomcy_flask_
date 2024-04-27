@@ -2,52 +2,52 @@
 
 body {
     font-family: Arial, sans-serif;
-    padding: 0;
+    padding:100;
     background-size: cover;
-    margin: 0;
+    margin: 100;
   }
 
   h1 {
     text-align: center;
-    font-size: 40px
-    color #030304;
-    margin-bottom: 20px;
+    font-size: 50px
+    color #128a0c;
+    margin-bottom: 50px;
   }
 
   h2 {
     text-align: center;
-    font-size: 20px
-    color  #030304;
-    margin-bottom: 20px;
+    font-size: 50px
+    color  #13af0a;
+    margin-bottom: 50px;
   }
   
   form {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   label {
   
     display: block;
-    margin-bottom: 5px;
-    color: #030304;
+    margin-bottom: 10px;
+    color: #aa183a;
   }
 
 
   input[type="text"] {
-    width: 15%;
-    padding: 8px;
-    border: 2px solid #0b0505;
-    border-radius: 3px;
-    margin-bottom: 10px;
+    width: 20%;
+    padding: 12px;
+    border: 12px solid #0b0505;
+    border-radius: 18px;
+    margin-bottom: 20px;
   }
   
   button {
-    padding: 8px 20px;
+    padding: 12px 30px;
     background-color: #030304;
     color: #f7f7fc;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     cursor: pointer;
   }
   
